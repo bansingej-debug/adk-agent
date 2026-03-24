@@ -13,8 +13,10 @@ def run_agent(user_input: str) -> str:
         return "Hi Janvi! 👋 How can I help you?"
     elif "career" in user_input:
         return "Focus on AI, coding, and internships!"
+    elif "ai" in user_input:
+        return "AI is the future 🚀 Keep learning!"
     else:
-        return "I'm your AI agent 😊"
+        return "I'm your AI agent 😊 Ask me anything!"
 
 @app.get("/")
 def home():
